@@ -4,12 +4,13 @@ module.exports = {
     'node': true,
   },
   'extends': 'google',
-  'overrides': [
-  ],
+  'overrides': [],
   'parserOptions': {
     'ecmaVersion': 'latest',
     'sourceType': 'module',
   },
   'rules': {
+    'indent': ['warn', 2],
+    'new-cap': ['error', {capIsNewExceptions: 'Router'}],
   },
 };
